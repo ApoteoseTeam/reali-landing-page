@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reali | Inteligência alimentar escolar</title>
+    <meta
+      name="description"
+      content="Conheça o Reali. Visão computacional e indicadores para apoiar o planejamento de refeições e o uso responsável de recursos nas escolas."
+    />
+    <meta name="theme-color" content="#F6FAF2" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Reali | Inteligência alimentar escolar" />
+    <meta
+      property="og:description"
+      content="Da portaria à cantina, informações para planejar melhor a alimentação escolar."
+    />
+    <meta property="og:image" content="./assets/images/escola.webp" />
+    <link rel="icon" href="./assets/logos/icone.png" />
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+    <header class="header">
+      <div class="shell navrow">
+        <a class="brand" href="#inicio" aria-label="Reali, início"
+          ><img src="./assets/logos/reali.webp" width="108" height="41" alt="Reali"
+        /></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+        <nav id="menu" aria-label="Navegação principal">
+          <a href="#inicio">Início</a><a href="#reali">O Reali</a><a href="#funcionamento">Como funciona</a
+          ><a href="#beneficios">Benefícios</a><a href="#historia">Nossa história</a
+          ><a href="#equipe">Equipe</a><a href="#contato">Contato</a>
+        </nav>
+        <a class="button button-small" data-registration href="#cadastro">Cadastrar instituição</a>
+      </div>
+    </header>
+    <main id="conteudo" tabindex="-1">
+      <section id="inicio" class="hero">
+        <div class="shell hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> Inteligência alimentar escolar</p>
+            <h1><span>Inteligência</span><span>que alimenta</span><span class="green">o futuro.</span></h1>
+            <p class="lede">
+              O Reali transforma dados do cotidiano escolar em informações que ajudam instituições a planejar
+              refeições, reduzir desperdícios e tomar decisões mais inteligentes.
+            </p>
+            <div class="actions">
+              <a class="button" href="#reali">Conheça o Reali</a
+              ><a class="button outline" data-registration href="#cadastro">Cadastrar minha instituição</a>
+            </div>
+          </div>
+          <figure class="hero-scene">
+            <img
+              class="scene-image"
+              src="./assets/images/escola.jpg"
+              width="1200"
+              height="900"
+              fetchpriority="high"
+            />
+          </figure>
+        </div>
+      </section>
+      <section id="problema" class="band tone-green">
+        <div class="shell">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">O desafio</p>
+              <h2>Quando falta informação, recursos podem ser desperdiçados.</h2>
+            </div>
+            <div>
+              <p>
+                Todo dia, a escola precisa decidir quantas refeições preparar. Sem dados atualizados sobre
+                presença e demanda, fica mais difícil estimar quem vai comer e ajustar o preparo.
+              </p>
+              <p>
+                Consolidar registros, acompanhar o movimento e entender tendências também fazem parte desse
+                planejamento.
+              </p>
+            </div>
+          </div>
+          <div class="comparison">
+            <article>
+              <p class="eyebrow">Sem Reali</p>
+              <h3>Informações dispersas</h3>
+              <ul>
+                <li>Estimativas manuais</li>
+                <li>Demanda difícil de acompanhar</li>
+                <li>Registros em lugares diferentes</li>
+              </ul>
+            </article>
+            <article>
+              <p class="eyebrow">Com Reali</p>
+              <h3>Dados que orientam o preparo</h3>
+              <ul>
+                <li>Indicadores de entradas e refeições</li>
+                <li>Informações organizadas ao longo do dia</li>
+                <li>Histórico para apoiar o planejamento</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="reali" class="band">
+        <div class="shell">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">O Reali</p>
+              <h2>Conheça o Reali. Tecnologia a serviço de uma alimentação escolar mais inteligente.</h2>
+            </div>
+            <p>
+              O Reali integra visão computacional, indicadores operacionais, dashboards e inteligência
+              artificial. Informações de diferentes ambientes da escola chegam a um só lugar para apoiar as
+              equipes responsáveis pela operação e pela gestão.
+            </p>
+          </div>
+          <div class="flow" id="flow" aria-label="Fluxo de dados da escola"></div>
+        </div>
+      </section>
+      <section id="funcionamento" class="band tone-blue">
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Como funciona</p>
+            <h2>Do movimento à decisão.</h2>
+          </div>
+          <div class="story-grid">
+            <div class="steps" id="steps"></div>
+            <div class="story-visual" id="story-visual" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+      <section id="visao" class="band">
+        <div class="shell">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">Visão computacional</p>
+              <h2>Tecnologia que transforma movimento em informação.</h2>
+            </div>
+            <p>
+              O sistema usa imagens para apoiar a contagem quando uma pessoa ou um prato atravessa uma área
+              definida. A leitura é operacional e pode variar conforme o ambiente e a qualidade da captura.
+            </p>
+          </div>
+          <div class="vision-grid">
+            <article class="demo">
+              <div class="demo-head">
+                <i data-icon="scan"></i>
+                <div>
+                  <h3>Contagem na portaria</h3>
+                  <p>Demonstração técnica · contagem de passagens</p>
+                </div>
+              </div>
+              <video
+                id="entry-video"
+                controls
+                playsinline
+                preload="none"
+                poster="./assets/images/entrada.webp"
+                aria-label="Demonstração da contagem de passagens na portaria"
+              >
+                <source src="./assets/videos/entrada.mp4" type="video/mp4" />
+                Seu navegador não oferece reprodução de vídeo.
+              </video>
+              <div class="selectors" id="angles" aria-label="Ângulo da portaria">
+                <button type="button" aria-pressed="true" data-angle="0">Ângulo 1</button
+                ><button type="button" aria-pressed="false" data-angle="1">Ângulo 2</button>
+              </div>
+              <p class="video-error" hidden role="status">
+                O vídeo está indisponível. A contagem registra passagens por uma área de entrada definida.
+              </p>
+            </article>
+            <article class="demo">
+              <div class="demo-head">
+                <i data-icon="plate"></i>
+                <div>
+                  <h3>Contagem na cantina</h3>
+                  <p>Demonstração técnica · contagem de pratos servidos</p>
+                </div>
+              </div>
+              <video
+                id="canteen-video"
+                controls
+                playsinline
+                preload="none"
+                poster="./assets/images/cantina.webp"
+                aria-label="Demonstração da contagem de pratos servidos na cantina"
+              >
+                <source src="./assets/videos/cantina.mp4" type="video/mp4" />
+                Seu navegador não oferece reprodução de vídeo.
+              </video>
+              <p class="video-error" hidden role="status">
+                O vídeo está indisponível. A demonstração mostra a contagem de pratos ao cruzarem a área demarcada.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="dados" class="band tone-light">
+        <div class="shell dashboard-layout">
+          <div class="section-head">
+            <p class="eyebrow">Dashboards e dados</p>
+            <h2>Dados claros. Decisões melhores.</h2>
+            <p>
+              Entradas, refeições e histórico em um painel. A visão por unidade ou por rede depende das
+              permissões do perfil.
+            </p>
+          </div>
+          <div class="dashboard">
+            <div class="dash-head">
+              <div>
+                <p class="eyebrow">Dados ilustrativos</p>
+                <h3>Painel de alimentação</h3>
+              </div>
+              <i data-icon="chart"></i>
+            </div>
+            <div class="selectors" id="dash-controls" aria-label="Período dos indicadores">
+              <button type="button" aria-pressed="true" data-period="0">Hoje</button
+              ><button type="button" aria-pressed="false" data-period="1">Esta semana</button>
+            </div>
+            <div id="dash-content"></div>
+          </div>
+        </div>
+      </section>
+      <section id="realinova" class="band tone-blue">
+        <div class="shell dashboard-layout">
+          <div class="section-head">
+            <p class="eyebrow">RealInova</p>
+            <h2>Inteligência para compreender os dados.</h2>
+            <p>
+              A proposta da RealInova é permitir perguntas em linguagem natural sobre os indicadores que cada
+              pessoa pode acessar.
+            </p>
+          </div>
+          <div class="chat">
+            <div class="dash-head">
+              <div>
+                <p class="eyebrow">Demonstração com respostas predefinidas</p>
+                <h3>RealInova</h3>
+              </div>
+              <i data-icon="spark"></i>
+            </div>
+            <div class="chat-log" id="chat-log" aria-live="polite"></div>
+            <div class="chat-prompts selectors" id="chat-prompts" aria-label="Perguntas de exemplo"></div>
+          </div>
+        </div>
+      </section>
+      <section id="perfis" class="band">
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Para quem é</p>
+            <h2>Cada pessoa tem um papel. O Reali conecta todos.</h2>
+            <p>
+              Perfis previstos na proposta. A disponibilidade de recursos depende dos módulos habilitados e
+              das permissões de cada instituição.
+            </p>
+          </div>
+          <div id="roles" class="roles"></div>
+        </div>
+      </section>
+      <section id="beneficios" class="band tone-light">
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Benefícios potenciais</p>
+            <h2>Mais inteligência para a escola. Mais consciência para o futuro.</h2>
+          </div>
+          <div id="benefit-grid" class="benefit-grid"></div>
+        </div>
+      </section>
+      <section id="historia" class="band">
+        <div class="shell history-grid">
+          <div class="section-head">
+            <p class="eyebrow">Nossa história</p>
+            <h2>Toda transformação começa com uma pergunta.</h2>
+            <p>
+              Como a tecnologia pode ajudar escolas a utilizar melhor seus recursos e tornar a alimentação
+              escolar mais inteligente?
+            </p>
+          </div>
+          <ol id="timeline" class="timeline"></ol>
+        </div>
+      </section>
+      <section id="equipe" class="band tone-light">
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Equipe</p>
+            <h2>As pessoas por trás da transformação.</h2>
+            <p>Conheça quem transforma ideias, tecnologia e propósito em soluções.</p>
+          </div>
+          <img
+            class="team-photo"
+            src="./assets/images/reali-team.webp"
+            width="1359"
+            height="767"
+            alt="Mosaico com os retratos dos sete integrantes da equipe Reali"
+            loading="lazy"
+            decoding="async"
+          />
+          <details class="team-roster">
+            <summary>Integrantes e funções</summary>
+            <ul>
+              <li>Guilherme Souza — Product Owner</li>
+              <li>Laura dos Santos — Scrum Master</li>
+              <li>Leticia Neves — Documentarista</li>
+              <li>Kayque Pimentel — Desenvolvedor</li>
+              <li>Giovanna Savoretti — Desenvolvedora</li>
+              <li>João Victor — Desenvolvedor</li>
+              <li>Pedro William — Desenvolvedor</li>
+            </ul>
+          </details>
+          <div id="team"></div>
+        </div>
+      </section>
+      <section id="tecnologias" class="band tone-blue">
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Tecnologias</p>
+            <h2>Tecnologia com propósito, da visão computacional à inteligência artificial.</h2>
+            <p>Ferramentas utilizadas ou previstas na arquitetura do projeto.</p>
+          </div>
+          <div id="stack" class="stack"></div>
+        </div>
+      </section>
+      <section id="privacidade" class="band">
+        <div class="shell split privacy">
+          <div class="section-head">
+            <p class="eyebrow">Privacidade e responsabilidade</p>
+            <h2>Inovação responsável começa pelo respeito aos dados.</h2>
+          </div>
+          <div>
+            <ul>
+              <li>
+                Contagem anônima, sem reconhecimento facial ou identificação biométrica na proposta atual.
+              </li>
+              <li>Acesso baseado em funções e limitado às informações necessárias.</li>
+              <li>Separação dos dados de diferentes instituições.</li>
+              <li>Atenção à LGPD e à proteção de dados de crianças e adolescentes.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="cadastro" class="band tone-green">
+        <div class="shell split registration">
+          <div class="section-head">
+            <p class="eyebrow">Cadastro institucional</p>
+            <h2>Sua instituição pode fazer parte dessa transformação.</h2>
+            <p>
+              Conheça a proposta do Reali e solicite a avaliação de sua instituição para participar da
+              plataforma.
+            </p>
+            <a
+              class="button"
+              id="registration-link"
+              data-registration
+              role="link"
+              aria-disabled="true"
+              aria-describedby="registration-status"
+              >Solicitar cadastro da instituição</a
+            >
+            <p class="notice" id="registration-status" role="status">
+              Link de solicitação pendente de configuração.
+            </p>
+          </div>
+          <ol class="onboarding">
+            <li>
+              <b>Solicitação e avaliação</b>
+              <p>O pedido é enviado pelo portal externo e avaliado pela equipe Reali.</p>
+            </li>
+            <li>
+              <b>Provisionamento após aprovação</b>
+              <p>A equipe prepara o ambiente e cria o acesso do primeiro administrador ou diretor.</p>
+            </li>
+            <li>
+              <b>Convites para funcionários</b>
+              <p>
+                O administrador convida cada pessoa por e-mail com a função correspondente. Cada convidado
+                ativa a conta e define a senha no primeiro acesso.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section id="faq" class="band">
+        <div class="shell split">
+          <div class="section-head">
+            <p class="eyebrow">Perguntas frequentes</p>
+            <h2>O que você precisa saber.</h2>
+          </div>
+          <div id="questions" class="faq"></div>
+        </div>
+      </section>
+    </main>
+    <footer id="contato" class="footer tone-blue">
+      <div class="shell">
+        <div class="footer-grid">
+          <div>
+            <a href="#inicio" class="brand"
+              ><img src="./assets/logos/reali.webp" width="108" height="41" alt="Reali"
+            /></a>
+            <p>
+              Inteligência alimentar para apoiar escolas no planejamento de refeições e no uso responsável de
+              recursos.
+            </p>
+          </div>
+          <nav aria-label="Navegação do rodapé">
+            <a href="#reali">O Reali</a><a href="#historia">Nossa história</a><a href="#equipe">Equipe</a
+            ><a data-registration href="#cadastro">Cadastro institucional</a>
+          </nav>
+          <div id="institutional-links"><a href="#privacidade">Privacidade e responsabilidade</a></div>
+        </div>
+        <div class="footer-word" aria-hidden="true">Reali</div>
+      </div>
+    </footer>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
